@@ -1,0 +1,8 @@
+brl = float(input('valor em real : '))
+ien = float(input('cotaçao IEN: '))
+eur = float(input('cotaçao EUR: '))
+dol = float(input('cotaçao DOL :'))
+cdol = float(brl)/float(dol)
+ceur = float(brl)/float(eur)
+cien = float(brl)/float(ien)
+print('Euro : {} Iene : {} Dolar : {}'.format(ceur,cien,cdol))
